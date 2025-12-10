@@ -3,21 +3,21 @@ This project uses Python to analyze airline passenger satisfaction, focusing on 
 
 ### Table of Contents ###
 
-- Project Overview
+- [Project Overview](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#project-overview)
 
-- Project Scope
+- [Project Scope](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#project-scope)
 
-- Project Objectives
+- [Project Objectives](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#project-objectives)
 
-- Expected Outcome
+- [Expected Outcome](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#expected-outcome)
 
-- Document Purpose
+- [Document Purpose](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#document-purpose)
 
-- Use Case
+- [Use Case](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#use-case)
 
-- Data Source
+- [Data Source](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#data-source)
 
-- Data Cleaning and Processing
+- [Data Cleaning and Processing](https://github.com/Omicksjay12345/AIRLINE-PASSENGER-SATISFACTION-ANALYSIS/edit/main/README.md#data-cleaning-and-processing)
 
 - Data Analysis
 
@@ -32,8 +32,9 @@ This project uses Python to analyze airline passenger satisfaction, focusing on 
 Airline customer satisfaction is a key measure of operational performance and service delivery in the aviation industry. This project analyzes a real-world airline passenger satisfaction dataset, exploring how flight experience, delays, travel class, passenger demographics, and service ratings influence overall satisfaction.
 
 ### Project Scope ###
-The project covers a comprehensive analysis of airline passenger satisfaction, including customer demographics, flight information, and service rating metrics. The analysis go across the entire dataset, providing a detailed view of passenger experiences and operational performance across different customer groups and travel conditions.
-Project Objectives
+The project covers a comprehensive analysis of airline passenger satisfaction, including customer demographics, flight information, and service rating metrics. The analysis goes across the entire dataset, providing a detailed view of passenger experiences and operational performance across different customer groups and travel conditions.
+
+### Project Objectives ###
 The major objectives include:
 - Data Understanding: Gain full insight into the structure, quality, and distribution of the dataset.
 - Data Cleaning & Preparation: Ensure the dataset is accurate, consistent, and analysis-ready.
@@ -76,7 +77,7 @@ Organizations can use this analysis for:
 -	Identify areas with low service ratings.
 
 ### Data Source ###
-The dataset for this project is obtained from Maven Analytics platform and is intended for analytical practice. It is provided as a CSV file containing airline passenger satisfaction records, comprising customer demographics, flight information, and service quality metrics. The dataset includes essential attributes such as:
+The dataset for this project is obtained from [Maven Analytics platform](https://app.mavenanalytics.io/datasets?search=airline+passenger) and is intended for analytical practice. It is provided as a CSV file containing airline passenger satisfaction records, comprising customer demographics, flight information, and service quality metrics. The dataset includes essential attributes such as:
 -	Passenger ID, Gender, Age
 -	Customer Type (First time / Returning)
 -	Type of Travel (Business / Personal)
@@ -88,7 +89,7 @@ The dataset for this project is obtained from Maven Analytics platform and is in
 The dataset provides comprehensive information suitable for evaluating passenger experience and identifying key drivers of airline satisfaction.
 
 ### Data Cleaning and Processing ###
-To ensure accurate and reliable insights, the dataset was reviewed for completeness, consistency, and quality. The cleaning process involved checking for missing values, incorrect data types, inconsistencies, and supplicate records. Overall, the dataset was well-structured, with standardized fields and valid entries.
+To ensure accurate and reliable insights, the dataset was reviewed for completeness, consistency, and quality. The cleaning process involved checking for missing values, incorrect data types, inconsistencies, and duplicate records. Overall, the dataset was well-structured, with standardized fields and valid entries.
 
 Key steps taken during cleaning included:
 -	Replacing zeros in service rating columns with NaN where they represented “Not Applicable.”
